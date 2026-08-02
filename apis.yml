@@ -1,8 +1,29 @@
 aid: superhuman
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/superhuman.png
 name: Superhuman
-description: Superhuman is a company surfaced as a portfolio company of 500-global, a16z, ivp and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Superhuman is an AI-native productivity platform built around a fast email
+  client (Mail), collaborative documents (Docs, formerly Coda), a proactive AI
+  assistant (Superhuman Go), the Grammarly writing assistant, Calendar, and
+  Databases. Following the combination of Superhuman, Grammarly, and Coda, the
+  company operates a developer platform: first-party Model Context Protocol
+  (MCP) servers for Mail and Docs that let AI clients such as Claude, ChatGPT,
+  and Cursor act on a user's mail and document context; a Superhuman Agents SDK
+  and Docs SDK for extending the surface; and REST APIs for Docs, Docs Admin,
+  Grammarly, and audit logs. Security posture is published through a SafeBase
+  trust center with SOC 2 Type 2 and ISO/IEC 27001/27017/27018/27701
+  attestations, and service health is tracked on a public Atlassian status page.
 url: https://raw.githubusercontent.com/api-evangelist/superhuman/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Email
+- Productivity
+- Artificial Intelligence
+- Email Client
+- Documents
+- Model Context Protocol
+- Agents
+- Communication
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +55,41 @@ maintainers:
 common:
 - type: Website
   url: https://superhuman.com
+- type: DeveloperPortal
+  url: https://superhuman.com/developers
+- type: Documentation
+  url: https://superhuman.com/developers
+- type: APIReference
+  url: https://coda.io/developers/apis/v1
+- type: MCPServer
+  name: Superhuman Mail & Docs MCP servers
+  url: mcp/superhuman-mcp.yml
+- type: StatusPage
+  url: https://status.superhuman.com
+- type: Lifecycle
+  url: lifecycle/superhuman-lifecycle.yml
+- type: TrustCenter
+  url: security/superhuman-trust-center.yml
+- type: Compliance
+  url: https://trust.superhuman.com
+- type: DomainSecurity
+  url: security/superhuman-domain-security.yml
+- type: Blog
+  url: https://blog.superhuman.com
+- type: Support
+  url: https://help.superhuman.com
+- type: Pricing
+  url: https://superhuman.com/plans
+- type: SignUp
+  url: https://superhuman.com
+- type: TermsOfService
+  url: https://superhuman.com/legal/terms
+- type: PrivacyPolicy
+  url: https://superhuman.com/legal/privacy-policy
+- type: Partners
+  url: https://superhuman.com/partners
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

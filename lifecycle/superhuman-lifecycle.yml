@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.superhuman.com
+status_page: https://status.superhuman.com
+status_page_provider: Atlassian Statuspage
+status_components:
+  - Superhuman
+  - Email sending
+  - Google Apps Gmail
+  - HubSpot APIs
+uptime_note: "All Systems Operational; 100.0% uptime reported over trailing 90 days at capture"
+subscribe:
+  rss: https://status.superhuman.com/history.rss
+  atom: https://status.superhuman.com/history.atom
+versioning: null
+deprecation: null
+sla: null
+notes: >-
+  Superhuman publishes an Atlassian Statuspage covering the Mail service and its
+  upstream dependencies (Gmail, HubSpot APIs). No public API versioning or
+  deprecation policy is published for the Mail surface; the developer APIs
+  (Coda Docs API, Grammarly API) carry their own versioning under their
+  respective docs hosts.

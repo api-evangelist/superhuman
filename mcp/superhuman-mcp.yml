@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://superhuman.com/developers
+notes: >-
+  Superhuman (the platform formed from Superhuman Mail + Grammarly + Coda Docs)
+  publishes two first-party Model Context Protocol servers so AI clients
+  (Claude, ChatGPT, Cursor) can act on a user's mail and docs context. The Mail
+  MCP server is Superhuman-branded and documented in the Help Center; the Docs
+  MCP server is delivered via Coda. Exact remote endpoint URLs and the tool
+  manifest are published behind the Help Center article (bot-gated), so only the
+  documentation locations are captured verbatim here — no endpoint is fabricated.
+servers:
+  - name: Superhuman Mail MCP
+    product: Mail
+    transport: remote
+    first_party: true
+    clients:
+      - Claude
+      - ChatGPT
+      - Cursor
+    docs: https://help.superhuman.com/hc/en-us/articles/49810745762067-Superhuman-Mail-MCP-Server
+    feature_page: https://superhuman.com/mail/features/email-mcp
+  - name: Superhuman Docs MCP
+    product: Docs
+    transport: remote
+    first_party: true
+    clients:
+      - Claude
+      - ChatGPT
+      - Cursor
+    docs: https://coda.io/resources/guides/getting_started_with_coda_mcp
+    feature_page: https://superhuman.com/docs/features/docs-mcp
+related:
+  agents_sdk: https://coda.io/packs/build/latest/agents/
+  agent_store: https://superhuman.com/superhuman-platform
