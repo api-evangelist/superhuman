@@ -1,0 +1,55 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://superhuman.com/plans
+sources:
+- https://superhuman.com/plans
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Pro
+published: true
+note: Suite pricing page with per-member tiers; Enterprise is custom/contact sales.
+plan_count: 4
+currency: USD
+plans:
+- name: Free
+  price_text: $0
+  price: 0
+  currency: USD
+  period: month
+  unit: member
+  included_quota: Chat with AI in every application and tab; writing in 20+ languages; collaborative docs
+- name: Pro
+  price_text: $12 per member / month, billed annually
+  price: 12
+  currency: USD
+  period: month
+  unit: member
+  included_quota: Everything in Free, plus unlimited paragraph rewrites and translations, 30-day version
+    history
+  overage: $15 when billed monthly
+- name: Business
+  price_text: $33 per member / month, billed annually
+  price: 33
+  currency: USD
+  period: month
+  unit: member
+  included_quota: Everything in Pro, plus Mail, CRM integrations, unlimited automations
+  overage: $40 when billed monthly
+- name: Enterprise
+  price_text: Custom
+  period: none
+  unit: member
+  included_quota: Everything in Business, plus SAML SSO, advanced security, dedicated support
+rate_limit_statements:
+- Automations Low quota Medium quota Unlimited Unlimited
+- Attachments 1Gb per doc 5Gb per doc Unlimited Unlimited
+- Version history 7 days 30 days Unlimited Unlimited
